@@ -1,4 +1,4 @@
-{% set version = "4.0" %}
+{% set version = "4.0.1" %}
 
 package:
   name: astropy-helpers
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/a/astropy-helpers/astropy-helpers-{{ version }}.tar.gz
-  sha256: 4177101ca064f2fa40e513bcfa82571b61c18fb2016187c4912cd8bf5de536a8
+  sha256: f1096414d108778218d6bea06d4d9c7b2ff7c83856a451331ac194e74de9f413
   patches:
     - version.patch
 
